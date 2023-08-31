@@ -24,7 +24,7 @@ public class MenuManager : MonoBehaviour
 
     public void OpenPrivacyWebsite()
     {
-        string url = "https://www.erenyarar.net/unity-engine/privacy-policy";
+        string url = ""; // Privacy politikasýna giden URL eklenmeli
         Application.OpenURL(url);
     }
 
