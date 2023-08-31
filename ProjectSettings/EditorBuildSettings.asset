@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FoodGame.unity
     guid: 369d9cefb16425e439cba83b325afc71
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: ede8c15a29aef2040a55ab1310f7a44f, type: 2}

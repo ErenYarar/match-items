@@ -26,9 +26,11 @@ public class LevelSystem : MonoBehaviour
 
     public void LoadCurrentLevel()
     {
+        Debug.Log("LoadCurrentLevel() called"); // Debug mesaj ekle
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1.0f;
         //float goldValue = PlayerPrefs.GetFloat("Gold", 0);
+        Debug.Log("Time.timeScale set to 1.0");
     }
 
     private void OnEnable()
